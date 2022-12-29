@@ -39,3 +39,7 @@ function desencriptar(){
 	alert("Desencriptar");
 }
 
+function copiar(){
+	alert("Copiar");
+}
+
