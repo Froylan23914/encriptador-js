@@ -1,9 +1,22 @@
 html{
 	background:	#f3f5fc;
+	
 }
 
 input[type="button"]{
 	border-radius: 24px;
+	height:			67px;
+}
+
+main{
+	display:	flex;
+	justify-content:	center;
+	text-align:	center;
+}
+
+main div{
+	border: solid #5B6DCD 10px;
+	padding: 5px;
 }
 
 #salida{
@@ -18,3 +31,17 @@ input[type="button"]{
  background:	#d8dfe8;
 }
 
+#btnEncriptar, #btnDesencriptar{
+	width:			40%;
+}
+
+.divEntrada{
+	height:	100%;
+	width:	60%;
+	text-align:	left;
+}
+
+.divSalida{
+	height:	100%;
+	width:	40%;
+}
