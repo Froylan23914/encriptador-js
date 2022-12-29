@@ -1,1 +1,8 @@
-alert("Prueba del alert");
+function encriptar(){
+	alert("Encriptar");
+}
+
+function desencriptar(){
+	alert("Desencriptar");
+}
+
