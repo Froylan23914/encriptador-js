@@ -1,4 +1,20 @@
 html{
-	background:	#ccc;
+	background:	#f3f5fc;
+}
+
+input[type="button"]{
+	border-radius: 24px;
+}
+
+#salida{
+	border-radius: 32px;
+}
+
+#btnEncriptar{
+ background:	darkblue;
+}
+
+#btnDesencriptar{
+ background:	#d8dfe8;
 }
 
