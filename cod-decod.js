@@ -10,7 +10,6 @@ const llaves = {
 
 function encriptar(){
 	let texto = txtEntrada.value;	
-	txtEntrada.value="";
 	let textoSalida="";
 	for(let i=0;i<texto.length;i++){
 		switch(texto.charAt(i)){
