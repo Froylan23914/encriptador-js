@@ -8,6 +8,34 @@ const llaves = {
 	u:	"ufat"
 }
 
+function desencriptar(){
+	let texto = txtEntrada.value;	
+	let textoSalida="";
+	let aux;
+	for(let i=0;i<texto.length;i++){
+		aux=texto.charAt(i);
+		textoSalida+=aux;
+		switch(aux){
+			case "a":
+			i+=llaves.a.length-1;
+			break;
+			case "e":
+			i+=llaves.e.length-1;
+			break;
+			case "i":
+			i+=llaves.i.length-1;
+			break;
+			case "o":
+			i+=llaves.o.length-1;
+			break;
+			case "u":
+			i+=llaves.u.length-1;
+			break;
+		}
+	}
+	areaSalida.value=textoSalida;
+}
+
 function encriptar(){
 	let texto = txtEntrada.value;	
 	let textoSalida="";
@@ -33,10 +61,6 @@ function encriptar(){
 		}
 	}
 	areaSalida.value=textoSalida;
-}
-
-function desencriptar(){
-	alert("Desencriptar");
 }
 
 function copiar(){
