@@ -40,6 +40,7 @@ function desencriptar(){
 }
 
 function copiar(){
-	alert("Copiar");
+	areaSalida.select();
+	document.execCommand("copy");
 }
 
