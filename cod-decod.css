@@ -4,8 +4,8 @@ html{
 }
 
 input[type="button"]{
-	border-radius: 24px;
-	height:			67px;
+	border-radius: 	24px;
+	height:			45px;
 }
 
 main{
@@ -15,31 +15,50 @@ main{
 	padding:			15px;
 }
 
+p img{
+	height: 15px;
+	margin-right: 5px;
+}
+
 #btnEncriptar{
- background:	darkblue;
+	background:	darkblue;
+	color: 			#fff;
+	border-color: 	#0A3871;
 }
 
 #btnDesencriptar{
- background:	#d8dfe8;
+	background:	#d8dfe8;
+	color: 			#0A3871;
+	border-color: 	#0A3871;
 }
 
 #btnCopiar{
 	width:	80%;
+	background:	white;
+	color: 			#0A3871;
+	border-color: 	#0A3871;
 }
 
 #btnEncriptar, #btnDesencriptar{
 	width:			40%;
+	margin: 		10px;
 }
 
 #entrada{
+	color: 			#0A3871;
+	background-color:	#f3f5fc;
 }
 
-#salida{
+#salida, #entrada{
 	height:				80%;
 	width:				95%;
 	margin:				10px auto;
 	border-style: 		none;
-	resize: none;
+	resize: 			none;
+}
+
+#salida:focus, #entrada:focus{
+	outline: none;
 }
 
 .divEntrada{
