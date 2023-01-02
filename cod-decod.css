@@ -9,13 +9,10 @@ input[type="button"]{
 }
 
 main{
-	display:	flex;
+	display:			flex;
 	justify-content:	center;
-	text-align:	center;
-}
-
-#salida{
-	border-radius: 32px;
+	text-align:			center;
+	padding:			15px;
 }
 
 #btnEncriptar{
@@ -34,6 +31,17 @@ main{
 	width:			40%;
 }
 
+#entrada{
+}
+
+#salida{
+	height:				80%;
+	width:				95%;
+	margin:				10px auto;
+	border-style: 		none;
+	resize: none;
+}
+
 .divEntrada{
 	width:	60%;
 	text-align:	left;
@@ -41,10 +49,11 @@ main{
 
 .divSalida{
 	width:	40%;
+	border-radius:		24px;
+	background-color: 	white;
 }
 
 .divEntrada, .divSalida{
-	border: solid #5B6DCD 10px;
 	padding: 5px;
 	height:	33em;
 }
