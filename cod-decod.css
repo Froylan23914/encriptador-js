@@ -31,6 +31,10 @@ main div{
  background:	#d8dfe8;
 }
 
+#btnCopiar{
+	width:	80%;
+}
+
 #btnEncriptar, #btnDesencriptar{
 	width:			40%;
 }
