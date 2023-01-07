@@ -53,7 +53,7 @@ p img{
 }
 
 #salida{
-	height: 10em;
+	height: 9em;
 }
 
 #btnEncriptar, #btnDesencriptar, #btnCopiar{
@@ -90,10 +90,14 @@ p img{
 		width:	45%;
 		margin: 1%;
 	}
+
+	#salida{
+		height: 13em;
+	}
 }
-/*
-@media (min-width:1024px){
-	/* Para una pantalla de tableta: 1440px X 1024px * /
+
+@media (min-width:768px){
+	/* Para una pantalla de tableta: 1440px X 1024px */
 	main{
 		display:	flex;
 	}
@@ -106,8 +110,7 @@ p img{
 		width:	40%;
 	}
 
-	.divEntrada, .divSalida{
-		height:	20em;
+	#entrada, #salida{
+		height:	32em;
 	}
 }
-*/
