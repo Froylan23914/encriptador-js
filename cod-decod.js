@@ -11,6 +11,7 @@ const llaves = {
 }
 
 function desencriptar(){
+	mostrarSalida();
 	let texto = txtEntrada.value;	
 	let textoSalida="";
 	let aux;
@@ -39,6 +40,7 @@ function desencriptar(){
 }
 
 function encriptar(){
+	mostrarSalida();
 	let texto = txtEntrada.value;	
 	let textoSalida="";
 	for(let i=0;i<texto.length;i++){
@@ -70,3 +72,7 @@ function copiar(){
 	document.execCommand("copy");
 }
 
+function mostrarSalida(){
+	divPostAccion.style.display= 'block'
+	divPreAccion.style.display='none';
+}
