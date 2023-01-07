@@ -24,6 +24,10 @@ p img{
 	text-align:	left;
 }
 
+.divEntrada div{
+	text-align:	center;
+}
+
 .divSalida{
 	border-radius:		24px;
 	background-color: 	white;
@@ -83,7 +87,8 @@ p img{
 @media only screen and (min-width:375px){
 /* Para una pantalla de tableta: 1174px X 768px */
 	#btnEncriptar, #btnDesencriptar{
-		color: yellow;
+		width:	45%;
+		margin: 1%;
 	}
 }
 /*
