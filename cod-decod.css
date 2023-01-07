@@ -84,6 +84,22 @@ p img{
 	border-color: 	#0A3871;
 }
 
+.preAccion p{
+	font-size: 0.8em;
+	margin:		0.5em;
+	color:	#495057
+}
+
+.preAccion p:first-child{
+	font-weight: 	bold;
+	font-size: 		1em;
+	color:			#343A40;
+}
+
+.postAccion{
+	display:	none;
+}
+
 @media only screen and (min-width:375px){
 /* Para una pantalla de tableta: 1174px X 768px */
 	#btnEncriptar, #btnDesencriptar{
