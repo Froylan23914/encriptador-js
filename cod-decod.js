@@ -1,5 +1,7 @@
 let txtEntrada = document.getElementById("entrada");
 let areaSalida = document.getElementById("salida");
+let divPreAccion = document.getElementById("preAccion");
+let divPostAccion = document.getElementById("postAccion");
 const llaves = {
 	a:	"ai",
 	e:	"enter",

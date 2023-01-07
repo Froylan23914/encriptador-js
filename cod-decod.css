@@ -84,19 +84,19 @@ p img{
 	border-color: 	#0A3871;
 }
 
-.preAccion p{
+#preAccion p{
 	font-size: 0.8em;
 	margin:		0.5em;
 	color:	#495057
 }
 
-.preAccion p:first-child{
+#preAccion p:first-child{
 	font-weight: 	bold;
 	font-size: 		1em;
 	color:			#343A40;
 }
 
-.postAccion{
+#postAccion{
 	display:	none;
 }
 
