@@ -33,6 +33,9 @@ p img{
 	background-color: 	white;
 	height:				auto;
 	padding:			0.5em;
+	display: 			flex;
+	justify-content: 	center;
+	align-items: 		center;
 }
 
 #salida, #entrada{
@@ -82,6 +85,9 @@ p img{
 	background:	white;
 	color: 			#0A3871;
 	border-color: 	#0A3871;
+}
+
+#preAccion{
 }
 
 #preAccion p{

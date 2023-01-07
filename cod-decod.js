@@ -2,6 +2,7 @@ let txtEntrada = document.getElementById("entrada");
 let areaSalida = document.getElementById("salida");
 let divPreAccion = document.getElementById("preAccion");
 let divPostAccion = document.getElementById("postAccion");
+let divSalida = document.querySelector(".divSalida");
 const llaves = {
 	a:	"ai",
 	e:	"enter",
@@ -75,4 +76,5 @@ function copiar(){
 function mostrarSalida(){
 	divPostAccion.style.display= 'block'
 	divPreAccion.style.display='none';
+	divSalida.style.display="block";
 }
