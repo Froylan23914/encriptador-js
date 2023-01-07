@@ -1,23 +1,64 @@
+/* Para una pantalla de celular: 933px X 375px */
 html{
 	background:	#f3f5fc;
-	
-}
-
-input[type="button"]{
-	border-radius: 	24px;
-	height:			45px;
 }
 
 main{
-	display:			flex;
+	display:	block;
 	justify-content:	center;
 	text-align:			center;
-	padding:			15px;
+	padding:			0.8em;
 }
 
 p img{
-	height: 15px;
+	height: 1em;
 	margin-right: 5px;
+}
+
+.divEntrada, .divSalida{
+	width:		auto;
+	height:		auto;
+}
+
+.divEntrada{
+	text-align:	left;
+}
+
+.divSalida{
+	border-radius:		24px;
+	background-color: 	white;
+	height:				auto;
+	padding:			0.5em;
+}
+
+#salida, #entrada{
+	width:				95%;
+	border-style: 		none;
+	resize: 			none;
+	font-size: 			1.2em;
+}
+
+#salida:focus, #entrada:focus{
+	outline: none;
+}
+
+#entrada{
+	color: 				#0A3871;
+	background-color:	#f3f5fc;
+	height:				15em;
+}
+
+#salida{
+	height: 10em;
+}
+
+#btnEncriptar, #btnDesencriptar, #btnCopiar{
+	font-size: 1em;
+	height: auto;
+	width: 100%;
+	padding: 0.5em;
+	border-radius: 	24px;
+	margin:	0.3em 0;
 }
 
 #btnEncriptar{
@@ -39,40 +80,29 @@ p img{
 	border-color: 	#0A3871;
 }
 
-#btnEncriptar, #btnDesencriptar{
-	width:			40%;
-	margin: 		10px;
+@media only screen and (min-width:375px){
+/* Para una pantalla de tableta: 1174px X 768px */
+	#btnEncriptar, #btnDesencriptar{
+		color: yellow;
+	}
 }
+/*
+@media (min-width:1024px){
+	/* Para una pantalla de tableta: 1440px X 1024px * /
+	main{
+		display:	flex;
+	}
 
-#entrada{
-	color: 			#0A3871;
-	background-color:	#f3f5fc;
-}
+	.divEntrada{
+		width:	60%;
+	}
 
-#salida, #entrada{
-	height:				80%;
-	width:				95%;
-	margin:				10px auto;
-	border-style: 		none;
-	resize: 			none;
-}
+	.divSalida{
+		width:	40%;
+	}
 
-#salida:focus, #entrada:focus{
-	outline: none;
+	.divEntrada, .divSalida{
+		height:	20em;
+	}
 }
-
-.divEntrada{
-	width:	60%;
-	text-align:	left;
-}
-
-.divSalida{
-	width:	40%;
-	border-radius:		24px;
-	background-color: 	white;
-}
-
-.divEntrada, .divSalida{
-	padding: 5px;
-	height:	33em;
-}
+*/
